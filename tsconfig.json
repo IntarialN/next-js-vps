@@ -28,6 +28,9 @@
       "@eveot/ui": ["./node_modules/@eveot/ui/dist/bundle"]
     }
   },
-  "include": ["video.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "video.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": [
+    "eveot-site/node_modules"
+  ]
 }
